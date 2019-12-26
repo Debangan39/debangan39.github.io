@@ -38,7 +38,19 @@
                     <a href="index.html" class="w3-button w3-bar-item">Home</a>
                     <a href="Projects.html" class="w3-button w3-bar-item">Projects</a>
                     <a href="blog.html" class="w3-button w3-bar-item">Blog</a>
-                    <a href="#contact" class="w3-button w3-bar-item">Contact</a>
+                    <div class="w3-container">
+                        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Contact</button>
+                          
+                        <div id="id01" class="w3-modal">
+                            <div class="w3-modal-content">
+                                <div class="w3-container">
+                                  <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                                  <p>Email: debangan39@gmail.com</p>
+                                  <p>Phone: 7436874906</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="container" onclick="myFunction(this)">
                         <div class="bar1"></div>
                         <div class="bar2"></div>
